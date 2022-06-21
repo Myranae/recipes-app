@@ -2,37 +2,37 @@ body {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+ul, li {
+  list-style: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+main {
+  margin: 0 auto;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-wrap: wrap;
+  margin: 0 auto;
 }
 
-.App-link {
-  color: #61dafb;
+.recipes {
+  border: black 2px solid;
+  background-color: bisque;
+  margin: 2em;
+  padding: 0.5em;
+  width: 20em;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.recipes > ul {
+  padding-left: 0;
+  text-align: center;
+}
+
+button {
+  width: 8em;
+  height: 3em;
+  font-size: 1em;
+  font-weight: bold;
+  background-color: plum;
 }
